@@ -81,3 +81,11 @@ SELECT * FROM dado_captado;
 SELECT * FROM empresa_parceira;
 SELECT * FROM franquia;
 
+select 
+	s.status, 
+    p.nome, 
+    e.nome 
+from sensor as s
+join ponto_monitoramento as p on s.fk_ponto = id_ponto_monitoramento
+join empresa_parceira as e on e.id_empresa = fk_empresa;
+
