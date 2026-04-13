@@ -109,6 +109,11 @@ UPDATE sensor SET nome = 'Caixa2' WHERE id_sensor = 2;
 UPDATE sensor SET nome = 'Corredor Doces' WHERE id_sensor = 3;
 UPDATE sensor SET nome = 'Corredor Limpeza' WHERE id_sensor = 4;
 UPDATE sensor SET nome = 'Frios' WHERE id_sensor = 5;
+UPDATE sensor SET nome = 'Entrada' WHERE id_sensor = 3;
+UPDATE sensor SET nome = 'Saída' WHERE id_sensor = 4;
+
+
+
 
 
 
